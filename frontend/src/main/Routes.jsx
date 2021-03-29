@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route, Redirect, hashHistory } from 'react-router';
 import BillingCycle from '../billingCycle/BillingCycle';
-import Dashboard from '../billingCycle/dashboard/Dashboard';
+import Dashboard from '../dashboard/Dashboard';
 const routes = () => {
   return (
     <Router history={hashHistory}>
